@@ -77,7 +77,7 @@ class Login extends Component {
               type="password"
               className="form-control"
               name="password"
-              onChange={this.handleChange}
+              onChange={this.handleChange} //metodo para impuit
             />
             <br />
             <button className="btn btn-primary" onClick={()=> this.iniciarSesion()}>Iniciar Sesión</button>
